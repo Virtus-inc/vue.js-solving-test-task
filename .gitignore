@@ -8,6 +8,9 @@ dist
 
 # Node dependencies
 node_modules
+.nuxt
+.yarn
+.yarnrc.yml
 
 # Logs
 logs
