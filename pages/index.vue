@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-  import Dropdown from "~/components/iu/Dropdown.vue"
+  import Dropdown from "~/components/ui/Dropdown.vue"
 
   const data = ref({
     status: false,
