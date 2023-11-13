@@ -2252,24 +2252,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:10.6.0, @vueuse/core@npm:^10.5.0":
-  version: 10.6.0
-  resolution: "@vueuse/core@npm:10.6.0"
+"@vueuse/core@npm:10.6.1, @vueuse/core@npm:^10.5.0":
+  version: 10.6.1
+  resolution: "@vueuse/core@npm:10.6.1"
   dependencies:
     "@types/web-bluetooth": "npm:^0.0.20"
-    "@vueuse/metadata": "npm:10.6.0"
-    "@vueuse/shared": "npm:10.6.0"
+    "@vueuse/metadata": "npm:10.6.1"
+    "@vueuse/shared": "npm:10.6.1"
     vue-demi: "npm:>=0.14.6"
-  checksum: 3bc51079726082753539172f7940f27ae1e34cfc86c53c86d2ff1b04d71b5d10e8e8ca8b5c26ac96d289f7c2249513b65e527a704921a07164571fb93f336005
+  checksum: 39983a91082e97e818d811f951ef60b1f2fc9fa7f0840397f2a0c57e24e8e669ab49576f7b429ffe33c9902406352b0ce383dadeb3b87285e911a564adc39b15
   languageName: node
   linkType: hard
 
 "@vueuse/integrations@npm:^10.5.0":
-  version: 10.6.0
-  resolution: "@vueuse/integrations@npm:10.6.0"
+  version: 10.6.1
+  resolution: "@vueuse/integrations@npm:10.6.1"
   dependencies:
-    "@vueuse/core": "npm:10.6.0"
-    "@vueuse/shared": "npm:10.6.0"
+    "@vueuse/core": "npm:10.6.1"
+    "@vueuse/shared": "npm:10.6.1"
     vue-demi: "npm:>=0.14.6"
   peerDependencies:
     async-validator: "*"
@@ -2309,33 +2309,33 @@ __metadata:
       optional: true
     universal-cookie:
       optional: true
-  checksum: 4a65f0276d89e7a07a5096bf15bf2c3673fd4e85ccbc2e38581c7772698d4e2f59c041dd6186f6b8881ce2dc86bb7f9fc142ee4a026a98eb6b936989a0335e92
+  checksum: 72573bc6ace2c32d89c52fbedadb89b9d36ea0e928e0489f49cf7929f0a4c6274c3f14e87bd8fe8f0dc073d2e71714a971dd660cd29f68d3f0734e208256b49e
   languageName: node
   linkType: hard
 
 "@vueuse/math@npm:^10.5.0":
-  version: 10.6.0
-  resolution: "@vueuse/math@npm:10.6.0"
+  version: 10.6.1
+  resolution: "@vueuse/math@npm:10.6.1"
   dependencies:
-    "@vueuse/shared": "npm:10.6.0"
+    "@vueuse/shared": "npm:10.6.1"
     vue-demi: "npm:>=0.14.6"
-  checksum: 7cbc8e735b9696bc19d7b66779c399006db836abb3483e1c33b2baed9e1e3be79bee29485e46b587c7727767caca2c16654c0ed72c299ada221383eca8a4dddc
+  checksum: 2c546a94346b09bc9287ae8c152567a2f7fa1e61ab870ab65de2d5d23813467845cae0801ecdb678b7b3fe83f3e2fbf7ede8c97e19e90196ec2c3cc4c9d141c0
   languageName: node
   linkType: hard
 
-"@vueuse/metadata@npm:10.6.0":
-  version: 10.6.0
-  resolution: "@vueuse/metadata@npm:10.6.0"
-  checksum: 9d325149018b33670dab64d080700efb010bfb6441f651d879403eb1dd371353a8c35dc41383df2a5ab65c3a9ce6ad211ffb8143b29169e45c0515be4151ee7d
+"@vueuse/metadata@npm:10.6.1":
+  version: 10.6.1
+  resolution: "@vueuse/metadata@npm:10.6.1"
+  checksum: 68e5dcf1156f765510f78eda99a1849705d4219a07221bde6f3a31e742fd0c6142510f5879fc105eaaafa0039b57b41b6aafdd82d579e034fada1175a672c99f
   languageName: node
   linkType: hard
 
-"@vueuse/shared@npm:10.6.0":
-  version: 10.6.0
-  resolution: "@vueuse/shared@npm:10.6.0"
+"@vueuse/shared@npm:10.6.1":
+  version: 10.6.1
+  resolution: "@vueuse/shared@npm:10.6.1"
   dependencies:
     vue-demi: "npm:>=0.14.6"
-  checksum: 9dfde337aedb730bd91597e412a9623bbe8856abc3373050ce41ce03db2fd2f6d5ea1afb454560b017819be8499f8ac8f84c46c5c0a6db3f19a6135492efe27a
+  checksum: d97ac00a60213e3d5f3b55e838168394971766abad69dbf02dc838e21181b3bc0ab4edcace927312c2ef165d8cb2bcfa6976388f93fe5fba2516cb1631b506b6
   languageName: node
   linkType: hard
 
@@ -4728,21 +4728,6 @@ __metadata:
   checksum: 1e1904ddb0cb3d6cce7cd09e27a90184908b7a5d5c21b92e232c93579d314f0b83c246ffb035493d0504b1e9147ba2c9b21df0030f48673fba0496ecd698161f
   languageName: node
   linkType: hard
-
-"inext-vue-test-task@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "inext-vue-test-task@workspace:."
-  dependencies:
-    "@headlessui/vue": "npm:^1.7.16"
-    "@heroicons/vue": "npm:^2.0.18"
-    "@nuxt/devtools": "npm:latest"
-    "@nuxt/ui": "npm:^2.10.0"
-    "@nuxtjs/tailwindcss": "npm:^6.9.4"
-    nuxt: "npm:^3.8.1"
-    vue: "npm:^3.3.8"
-    vue-router: "npm:^4.2.5"
-  languageName: unknown
-  linkType: soft
 
 "inflight@npm:^1.0.4":
   version: 1.0.6
@@ -8919,6 +8904,21 @@ __metadata:
   checksum: 63e51f437a1f10a97fce97c04cde3f87958049c5e20f8b238b66b9a9080c99db0124e680ed0e9921af1f6d81c00bf181e280e36e2370cafea581539334d895ef
   languageName: node
   linkType: hard
+
+"vue.js-solving-test-task@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "vue.js-solving-test-task@workspace:."
+  dependencies:
+    "@headlessui/vue": "npm:^1.7.16"
+    "@heroicons/vue": "npm:^2.0.18"
+    "@nuxt/devtools": "npm:latest"
+    "@nuxt/ui": "npm:^2.10.0"
+    "@nuxtjs/tailwindcss": "npm:^6.9.4"
+    nuxt: "npm:^3.8.1"
+    vue: "npm:^3.3.8"
+    vue-router: "npm:^4.2.5"
+  languageName: unknown
+  linkType: soft
 
 "vue@npm:^3.3.8":
   version: 3.3.8
