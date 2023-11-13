@@ -1,6 +1,6 @@
 # vue.js-solving-test-task
 
-##Install
+## Install
 1. yarn install
    
 ## Run Dev
