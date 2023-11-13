@@ -1,6 +1,5 @@
 <template>
-  <div class="lg:p-4">
-    <p class="text-center lg:text-left">Fix me</p>
+  <div class="flex justify-center items-center h-screen">
     <UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
       <UButton color="white" label="Options" trailing-icon="i-heroicons-chevron-down-20-solid" />
     </UDropdown>
