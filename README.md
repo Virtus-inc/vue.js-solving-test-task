@@ -1,12 +1,13 @@
 # vue.js-solving-test-task
-#Install
+
+##Install
 1. yarn install
    
 ## Run Dev
-3. yarn dev
+2. yarn dev
    
 ## Build
-4. yarn build
+3. yarn build
 
-##Generate SSG
-6. yarn generate
+## Generate SSG
+4. yarn generate
