@@ -22,7 +22,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@antfu/utils@npm:^0.7.6":
+"@antfu/install-pkg@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@antfu/install-pkg@npm:0.1.1"
+  dependencies:
+    execa: "npm:^5.1.1"
+    find-up: "npm:^5.0.0"
+  checksum: ae3116cc0918765ad356901b9c8825340be27deac03eb4c8969377eab9731a3b41d96e920fa0b08adf91fba27a808d08c68852b110775ff79ba40481422cc8ba
+  languageName: node
+  linkType: hard
+
+"@antfu/utils@npm:^0.7.5, @antfu/utils@npm:^0.7.6":
   version: 0.7.6
   resolution: "@antfu/utils@npm:0.7.6"
   checksum: 517689c6eadb720c2964f3187124dd155e73fdc39edc724d25d7cdc0853587061c4395bbdb37c9339ab76bdbcb77d542efa7cd832d0b926ddf63993ebfe65369
@@ -484,6 +494,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@egoist/tailwindcss-icons@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@egoist/tailwindcss-icons@npm:1.4.0"
+  dependencies:
+    "@iconify/utils": "npm:^2.1.4"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: 1f4eb63c91f9ca7713a56be3cc8af15b109ef40276d233078af97ae511f0918b3c3ed6b6cc1022c9f102d21944e6b8879b5dd008f92a661059166393d64f99fb
+  languageName: node
+  linkType: hard
+
 "@esbuild/android-arm64@npm:0.18.20":
   version: 0.18.20
   resolution: "@esbuild/android-arm64@npm:0.18.20"
@@ -799,6 +820,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@headlessui/tailwindcss@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@headlessui/tailwindcss@npm:0.2.0"
+  peerDependencies:
+    tailwindcss: ^3.0
+  checksum: b641bef150e4ee18afd068c1af8e83c582a3131903ed1a310abbdb463b6150428a9b4c38e42cb296469fb20857f5542ae34f681cbff62f47d52332fbc5117479
+  languageName: node
+  linkType: hard
+
 "@headlessui/vue@npm:^1.7.16":
   version: 1.7.16
   resolution: "@headlessui/vue@npm:1.7.16"
@@ -814,6 +844,36 @@ __metadata:
   peerDependencies:
     vue: ">= 3"
   checksum: 1b3df58b9ccae7068444a3184c3f8edd1ef29babc756b4fe7495af9fcc3e70b65b2a7726ff50e7c726d31259b1ba73d64909e2f35fe10c5d07cbf28173c3ec27
+  languageName: node
+  linkType: hard
+
+"@iconify-json/heroicons@npm:^1.1.13":
+  version: 1.1.13
+  resolution: "@iconify-json/heroicons@npm:1.1.13"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: 2f5e5667e39a1fb433caebcf1d72392830eb70e0dec9c8243caf5250e05f66c10559265bb5c7467a6c7598bc68c92d85aa051e3a52f0597eb5248355fe05229b
+  languageName: node
+  linkType: hard
+
+"@iconify/types@npm:*, @iconify/types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@iconify/types@npm:2.0.0"
+  checksum: 65a3be43500c7ccacf360e136d00e1717f050b7b91da644e94370256ac66f582d59212bdb30d00788aab4fc078262e91c95b805d1808d654b72f6d2072a7e4b2
+  languageName: node
+  linkType: hard
+
+"@iconify/utils@npm:^2.1.4":
+  version: 2.1.11
+  resolution: "@iconify/utils@npm:2.1.11"
+  dependencies:
+    "@antfu/install-pkg": "npm:^0.1.1"
+    "@antfu/utils": "npm:^0.7.5"
+    "@iconify/types": "npm:^2.0.0"
+    debug: "npm:^4.3.4"
+    kolorist: "npm:^1.8.0"
+    local-pkg: "npm:^0.4.3"
+  checksum: fd7f1cc3198754488da178e23e273500a7f804aa0244b535ea9c7d81bf112b2cdd5f1356ed6c36ecb4684249b121ec052f5f7577182812a7327ed5cd536045a9
   languageName: node
   linkType: hard
 
@@ -1247,7 +1307,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:3.8.1, @nuxt/kit@npm:^3.7.4, @nuxt/kit@npm:^3.8.0, @nuxt/kit@npm:^3.8.1":
+"@nuxt/kit@npm:3.8.1, @nuxt/kit@npm:^3.5.3, @nuxt/kit@npm:^3.7.4, @nuxt/kit@npm:^3.8.0, @nuxt/kit@npm:^3.8.1":
   version: 3.8.1
   resolution: "@nuxt/kit@npm:3.8.1"
   dependencies:
@@ -1341,6 +1401,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nuxt/ui@npm:^2.10.0":
+  version: 2.10.0
+  resolution: "@nuxt/ui@npm:2.10.0"
+  dependencies:
+    "@egoist/tailwindcss-icons": "npm:^1.4.0"
+    "@headlessui/tailwindcss": "npm:^0.2.0"
+    "@headlessui/vue": "npm:^1.7.16"
+    "@iconify-json/heroicons": "npm:^1.1.13"
+    "@nuxt/kit": "npm:^3.8.0"
+    "@nuxtjs/color-mode": "npm:^3.3.0"
+    "@nuxtjs/tailwindcss": "npm:^6.8.1"
+    "@popperjs/core": "npm:^2.11.8"
+    "@tailwindcss/aspect-ratio": "npm:^0.4.2"
+    "@tailwindcss/container-queries": "npm:^0.1.1"
+    "@tailwindcss/forms": "npm:^0.5.6"
+    "@tailwindcss/typography": "npm:^0.5.10"
+    "@vueuse/core": "npm:^10.5.0"
+    "@vueuse/integrations": "npm:^10.5.0"
+    "@vueuse/math": "npm:^10.5.0"
+    defu: "npm:^6.1.3"
+    fuse.js: "npm:^6.6.2"
+    ohash: "npm:^1.1.3"
+    pathe: "npm:^1.1.1"
+    scule: "npm:^1.0.0"
+    tailwind-merge: "npm:^1.14.0"
+    tailwindcss: "npm:^3.3.5"
+  checksum: 3db385909439400ce88f24317511c0868a785403b63f3c9a73923bf68db10f316e65c2b409bac727f7fcee4f4c3d85c7cc9a770800b2cbc181e40cc888dd93e4
+  languageName: node
+  linkType: hard
+
 "@nuxt/vite-builder@npm:3.8.1":
   version: 3.8.1
   resolution: "@nuxt/vite-builder@npm:3.8.1"
@@ -1384,7 +1474,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxtjs/tailwindcss@npm:^6.9.4":
+"@nuxtjs/color-mode@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@nuxtjs/color-mode@npm:3.3.0"
+  dependencies:
+    "@nuxt/kit": "npm:^3.5.3"
+    lodash.template: "npm:^4.5.0"
+    pathe: "npm:^1.1.1"
+  checksum: fa02397267c387a71e657a1594b09ac43f1395e26bd722e5b2cada5ae48332880ff8fbfb05f4fc5a5362c05d4190306206c97501a4c40914609c2e89d2a662ae
+  languageName: node
+  linkType: hard
+
+"@nuxtjs/tailwindcss@npm:^6.8.1, @nuxtjs/tailwindcss@npm:^6.9.4":
   version: 6.9.4
   resolution: "@nuxtjs/tailwindcss@npm:6.9.4"
   dependencies:
@@ -1569,6 +1670,13 @@ __metadata:
   version: 1.0.0-next.23
   resolution: "@polka/url@npm:1.0.0-next.23"
   checksum: 78f6f5dbb56b56f5beaf5a99a88bed1bc9e6f6ec10d839f006b1680e6e7c0e0a8c3c91ce98c92a0bf01480ce8b04b37835089d212e8948fbb1f4a392863b275b
+  languageName: node
+  linkType: hard
+
+"@popperjs/core@npm:^2.11.8":
+  version: 2.11.8
+  resolution: "@popperjs/core@npm:2.11.8"
+  checksum: 4681e682abc006d25eb380d0cf3efc7557043f53b6aea7a5057d0d1e7df849a00e281cd8ea79c902a35a414d7919621fc2ba293ecec05f413598e0b23d5a1e63
   languageName: node
   linkType: hard
 
@@ -1762,6 +1870,49 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/aspect-ratio@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@tailwindcss/aspect-ratio@npm:0.4.2"
+  peerDependencies:
+    tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  checksum: c821a8061f80200b20db26f9cf2a711ffb17814adf847a72d4d4632804d1cabf6671df8e99e06cedfb2ba97b968d7843cd435d1201519c86acdde702efca418b
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/container-queries@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@tailwindcss/container-queries@npm:0.1.1"
+  peerDependencies:
+    tailwindcss: ">=3.2.0"
+  checksum: 336546ddcc60280723f2a92e311cac0acb8b05624c6519675d4b11ae13ed01dba5e622705a9be69cd66ca2c8019032551176546e6920d9634750165ac4c15d8e
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/forms@npm:^0.5.6":
+  version: 0.5.7
+  resolution: "@tailwindcss/forms@npm:0.5.7"
+  dependencies:
+    mini-svg-data-uri: "npm:^1.2.3"
+  peerDependencies:
+    tailwindcss: ">=3.0.0 || >= 3.0.0-alpha.1"
+  checksum: cd29e0c978402ae87a923ae802dcff43f7b050595666cb067321cac2e37a52f61b9d73385cb0a10455548581ddd0d3886815bd6c64a1da06247c0057fa9f4601
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/typography@npm:^0.5.10":
+  version: 0.5.10
+  resolution: "@tailwindcss/typography@npm:0.5.10"
+  dependencies:
+    lodash.castarray: "npm:^4.4.0"
+    lodash.isplainobject: "npm:^4.0.6"
+    lodash.merge: "npm:^4.6.2"
+    postcss-selector-parser: "npm:6.0.10"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: 0fa9c96bf091fb79fdc39a0244027b3891e9205f714197c8196e7ba2305523ce8695d14b912366de9b77d4b1d3a742fb7f9bc9bb633fddc7c7f13374b41075d2
+  languageName: node
+  linkType: hard
+
 "@trysound/sax@npm:0.2.0":
   version: 0.2.0
   resolution: "@trysound/sax@npm:0.2.0"
@@ -1829,6 +1980,13 @@ __metadata:
   version: 1.20.2
   resolution: "@types/resolve@npm:1.20.2"
   checksum: c5b7e1770feb5ccfb6802f6ad82a7b0d50874c99331e0c9b259e415e55a38d7a86ad0901c57665d93f75938be2a6a0bc9aa06c9749192cadb2e4512800bbc6e6
+  languageName: node
+  linkType: hard
+
+"@types/web-bluetooth@npm:^0.0.20":
+  version: 0.0.20
+  resolution: "@types/web-bluetooth@npm:0.0.20"
+  checksum: 3a49bd9396506af8f1b047db087aeeea9fe4301b7fad4fe06ae0f6e00d331138caae878fd09e6410658b70b4aaf10e4b191c41c1a5ff72211fe58da290c7d003
   languageName: node
   linkType: hard
 
@@ -2091,6 +2249,93 @@ __metadata:
   version: 3.3.8
   resolution: "@vue/shared@npm:3.3.8"
   checksum: 4e35a331309f883616cd21087d180ea10c95ed742cf67c33bedf9b0f060b791976071b076b31e075eb34571861cbe5d191fb8e265ee85573d2908d00f022171e
+  languageName: node
+  linkType: hard
+
+"@vueuse/core@npm:10.6.0, @vueuse/core@npm:^10.5.0":
+  version: 10.6.0
+  resolution: "@vueuse/core@npm:10.6.0"
+  dependencies:
+    "@types/web-bluetooth": "npm:^0.0.20"
+    "@vueuse/metadata": "npm:10.6.0"
+    "@vueuse/shared": "npm:10.6.0"
+    vue-demi: "npm:>=0.14.6"
+  checksum: 3bc51079726082753539172f7940f27ae1e34cfc86c53c86d2ff1b04d71b5d10e8e8ca8b5c26ac96d289f7c2249513b65e527a704921a07164571fb93f336005
+  languageName: node
+  linkType: hard
+
+"@vueuse/integrations@npm:^10.5.0":
+  version: 10.6.0
+  resolution: "@vueuse/integrations@npm:10.6.0"
+  dependencies:
+    "@vueuse/core": "npm:10.6.0"
+    "@vueuse/shared": "npm:10.6.0"
+    vue-demi: "npm:>=0.14.6"
+  peerDependencies:
+    async-validator: "*"
+    axios: "*"
+    change-case: "*"
+    drauu: "*"
+    focus-trap: "*"
+    fuse.js: "*"
+    idb-keyval: "*"
+    jwt-decode: "*"
+    nprogress: "*"
+    qrcode: "*"
+    sortablejs: "*"
+    universal-cookie: "*"
+  peerDependenciesMeta:
+    async-validator:
+      optional: true
+    axios:
+      optional: true
+    change-case:
+      optional: true
+    drauu:
+      optional: true
+    focus-trap:
+      optional: true
+    fuse.js:
+      optional: true
+    idb-keyval:
+      optional: true
+    jwt-decode:
+      optional: true
+    nprogress:
+      optional: true
+    qrcode:
+      optional: true
+    sortablejs:
+      optional: true
+    universal-cookie:
+      optional: true
+  checksum: 4a65f0276d89e7a07a5096bf15bf2c3673fd4e85ccbc2e38581c7772698d4e2f59c041dd6186f6b8881ce2dc86bb7f9fc142ee4a026a98eb6b936989a0335e92
+  languageName: node
+  linkType: hard
+
+"@vueuse/math@npm:^10.5.0":
+  version: 10.6.0
+  resolution: "@vueuse/math@npm:10.6.0"
+  dependencies:
+    "@vueuse/shared": "npm:10.6.0"
+    vue-demi: "npm:>=0.14.6"
+  checksum: 7cbc8e735b9696bc19d7b66779c399006db836abb3483e1c33b2baed9e1e3be79bee29485e46b587c7727767caca2c16654c0ed72c299ada221383eca8a4dddc
+  languageName: node
+  linkType: hard
+
+"@vueuse/metadata@npm:10.6.0":
+  version: 10.6.0
+  resolution: "@vueuse/metadata@npm:10.6.0"
+  checksum: 9d325149018b33670dab64d080700efb010bfb6441f651d879403eb1dd371353a8c35dc41383df2a5ab65c3a9ce6ad211ffb8143b29169e45c0515be4151ee7d
+  languageName: node
+  linkType: hard
+
+"@vueuse/shared@npm:10.6.0":
+  version: 10.6.0
+  resolution: "@vueuse/shared@npm:10.6.0"
+  dependencies:
+    vue-demi: "npm:>=0.14.6"
+  checksum: 9dfde337aedb730bd91597e412a9623bbe8856abc3373050ce41ce03db2fd2f6d5ea1afb454560b017819be8499f8ac8f84c46c5c0a6db3f19a6135492efe27a
   languageName: node
   linkType: hard
 
@@ -3846,6 +4091,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"find-up@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "find-up@npm:5.0.0"
+  dependencies:
+    locate-path: "npm:^6.0.0"
+    path-exists: "npm:^4.0.0"
+  checksum: 062c5a83a9c02f53cdd6d175a37ecf8f87ea5bbff1fdfb828f04bfa021441bc7583e8ebc0872a4c1baab96221fb8a8a275a19809fb93fbc40bd69ec35634069a
+  languageName: node
+  linkType: hard
+
 "flat@npm:^5.0.2":
   version: 5.0.2
   resolution: "flat@npm:5.0.2"
@@ -3957,6 +4212,13 @@ __metadata:
   version: 1.1.2
   resolution: "function-bind@npm:1.1.2"
   checksum: d8680ee1e5fcd4c197e4ac33b2b4dce03c71f4d91717292785703db200f5c21f977c568d28061226f9b5900cbcd2c84463646134fd5337e7925e0942bc3f46d5
+  languageName: node
+  linkType: hard
+
+"fuse.js@npm:^6.6.2":
+  version: 6.6.2
+  resolution: "fuse.js@npm:6.6.2"
+  checksum: c2fe4f234f516e9ea83b06f06f8f3c8b7117f51aa75bbccd052eed0c0423364bf1e360ffbf29cadae8ef6aa39476b7961eaf9d07bed779cea5c83d62b34e2df9
   languageName: node
   linkType: hard
 
@@ -4474,6 +4736,7 @@ __metadata:
     "@headlessui/vue": "npm:^1.7.16"
     "@heroicons/vue": "npm:^2.0.18"
     "@nuxt/devtools": "npm:latest"
+    "@nuxt/ui": "npm:^2.10.0"
     "@nuxtjs/tailwindcss": "npm:^6.9.4"
     nuxt: "npm:^3.8.1"
     vue: "npm:^3.3.8"
@@ -5091,6 +5354,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"locate-path@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "locate-path@npm:6.0.0"
+  dependencies:
+    p-locate: "npm:^5.0.0"
+  checksum: d3972ab70dfe58ce620e64265f90162d247e87159b6126b01314dd67be43d50e96a50b517bce2d9452a79409c7614054c277b5232377de50416564a77ac7aad3
+  languageName: node
+  linkType: hard
+
+"lodash._reinterpolate@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "lodash._reinterpolate@npm:3.0.0"
+  checksum: cdf592374b5e9eb6d6290a9a07c7d90f6e632cca4949da2a26ae9897ab13f138f3294fd5e81de3e5d997717f6e26c06747a9ad3413c043fd36c0d87504d97da6
+  languageName: node
+  linkType: hard
+
+"lodash.castarray@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "lodash.castarray@npm:4.4.0"
+  checksum: 0bf523ad1596a5bf17869ba047235b4453eee927005013ae152345e2b291b81a02e7f2b7c38f876a1d16f73c34aa3c3241e965193e5b31595035bc8f330c4358
+  languageName: node
+  linkType: hard
+
 "lodash.debounce@npm:^4.0.8":
   version: 4.0.8
   resolution: "lodash.debounce@npm:4.0.8"
@@ -5112,6 +5398,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.isplainobject@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "lodash.isplainobject@npm:4.0.6"
+  checksum: afd70b5c450d1e09f32a737bed06ff85b873ecd3d3d3400458725283e3f2e0bb6bf48e67dbe7a309eb371a822b16a26cca4a63c8c52db3fc7dc9d5f9dd324cbb
+  languageName: node
+  linkType: hard
+
 "lodash.memoize@npm:^4.1.2":
   version: 4.1.2
   resolution: "lodash.memoize@npm:4.1.2"
@@ -5119,10 +5412,36 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.merge@npm:^4.6.2":
+  version: 4.6.2
+  resolution: "lodash.merge@npm:4.6.2"
+  checksum: 402fa16a1edd7538de5b5903a90228aa48eb5533986ba7fa26606a49db2572bf414ff73a2c9f5d5fd36b31c46a5d5c7e1527749c07cbcf965ccff5fbdf32c506
+  languageName: node
+  linkType: hard
+
 "lodash.pick@npm:^4.4.0":
   version: 4.4.0
   resolution: "lodash.pick@npm:4.4.0"
   checksum: a04c460b95d1aaa44e9513d1dacf72ea74d838da843e45831de9de64c303f13cdde1859702a6f4dcef417816898ffd47c6ae0614c957ac70245bed2809b8d2e2
+  languageName: node
+  linkType: hard
+
+"lodash.template@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.template@npm:4.5.0"
+  dependencies:
+    lodash._reinterpolate: "npm:^3.0.0"
+    lodash.templatesettings: "npm:^4.0.0"
+  checksum: 62a02b397f72542fa9a989d9fc1a94fc1cb94ced8009fa5c37956746c0cf460279e844126c2abfbf7e235fe27e8b7ee8e6efbf6eac247a06aa05b05457fda817
+  languageName: node
+  linkType: hard
+
+"lodash.templatesettings@npm:^4.0.0":
+  version: 4.2.0
+  resolution: "lodash.templatesettings@npm:4.2.0"
+  dependencies:
+    lodash._reinterpolate: "npm:^3.0.0"
+  checksum: 2609fea36ed061114dfed701666540efc978b069b2106cd819b415759ed281419893d40f85825240197f1a38a98e846f2452e2d31c6d5ccee1e006c9de820622
   languageName: node
   linkType: hard
 
@@ -5339,6 +5658,15 @@ __metadata:
   version: 4.0.0
   resolution: "mimic-fn@npm:4.0.0"
   checksum: de9cc32be9996fd941e512248338e43407f63f6d497abe8441fa33447d922e927de54d4cc3c1a3c6d652857acd770389d5a3823f311a744132760ce2be15ccbf
+  languageName: node
+  linkType: hard
+
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.4.4
+  resolution: "mini-svg-data-uri@npm:1.4.4"
+  bin:
+    mini-svg-data-uri: cli.js
+  checksum: 24545fa30b5a45449241bf19c25b8bc37594b63ec06401b3d563bd1c2e8a6abb7c18741f8b354e0064baa63c291be214154bf3a66f201ae71dfab3cc1a5e3191
   languageName: node
   linkType: hard
 
@@ -6132,6 +6460,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"p-limit@npm:^3.0.2":
+  version: 3.1.0
+  resolution: "p-limit@npm:3.1.0"
+  dependencies:
+    yocto-queue: "npm:^0.1.0"
+  checksum: 9db675949dbdc9c3763c89e748d0ef8bdad0afbb24d49ceaf4c46c02c77d30db4e0652ed36d0a0a7a95154335fab810d95c86153105bb73b3a90448e2bb14e1a
+  languageName: node
+  linkType: hard
+
+"p-locate@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "p-locate@npm:5.0.0"
+  dependencies:
+    p-limit: "npm:^3.0.2"
+  checksum: 2290d627ab7903b8b70d11d384fee714b797f6040d9278932754a6860845c4d3190603a0772a663c8cb5a7b21d1b16acb3a6487ebcafa9773094edc3dfe6009a
+  languageName: node
+  linkType: hard
+
 "p-map@npm:^4.0.0":
   version: 4.0.0
   resolution: "p-map@npm:4.0.0"
@@ -6231,6 +6577,13 @@ __metadata:
   version: 1.3.3
   resolution: "parseurl@npm:1.3.3"
   checksum: 90dd4760d6f6174adb9f20cf0965ae12e23879b5f5464f38e92fce8073354341e4b3b76fa3d878351efe7d01e617121955284cfd002ab087fba1a0726ec0b4f5
+  languageName: node
+  linkType: hard
+
+"path-exists@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "path-exists@npm:4.0.0"
+  checksum: 8c0bd3f5238188197dc78dced15207a4716c51cc4e3624c44fc97acf69558f5ebb9a2afff486fe1b4ee148e0c133e96c5e11a9aa5c48a3006e3467da070e5e1b
   languageName: node
   linkType: hard
 
@@ -6780,6 +7133,16 @@ __metadata:
   peerDependencies:
     postcss: ^8.2.15
   checksum: 6da900d22dd8760b8a2ace32013036e3c4c4d9d560c31255eceea54563e3ddb2ca830bc9072fe2a1abacb8c48a008656887fc2f6ba1873e590342ad8e6bc269d
+  languageName: node
+  linkType: hard
+
+"postcss-selector-parser@npm:6.0.10":
+  version: 6.0.10
+  resolution: "postcss-selector-parser@npm:6.0.10"
+  dependencies:
+    cssesc: "npm:^3.0.0"
+    util-deprecate: "npm:^1.0.2"
+  checksum: a0b27c5e3f7604c8dc7cd83f145fdd7b21448e0d86072da99e0d78e536ba27aa9db2d42024c50aa530408ee517c4bdc0260529e1afb56608f9a82e839c207e82
   languageName: node
   linkType: hard
 
@@ -7745,7 +8108,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:~3.3.5":
+"tailwind-merge@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "tailwind-merge@npm:1.14.0"
+  checksum: a66f5ab1a2bb2b0f5a40a031867a6bc900de98eb3339b2a51759351221527a3d600eecb6cb5a038830aa89548eba72bb63aa3856cb9f31c9a3918b42eb3df350
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:^3.3.5, tailwindcss@npm:~3.3.5":
   version: 3.3.5
   resolution: "tailwindcss@npm:3.3.5"
   dependencies:
@@ -8516,6 +8886,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vue-demi@npm:>=0.14.6":
+  version: 0.14.6
+  resolution: "vue-demi@npm:0.14.6"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: c292c398ad3c2dbbaaf9b66a0a14b725840d3ba2afb109000cf12ccbc12f9ac4d569d3c14d2a347889519a3a0d58b8169ffb924c91ba506fe69063ea06ca6e3d
+  languageName: node
+  linkType: hard
+
 "vue-devtools-stub@npm:^0.1.0":
   version: 0.1.0
   resolution: "vue-devtools-stub@npm:0.1.0"
@@ -8739,6 +9125,13 @@ __metadata:
   version: 1.3.2
   resolution: "ylru@npm:1.3.2"
   checksum: 1fcdf0e6428fa4be71d8b1ae96ee6134d8c6194bd23e531b755b9d90bb9c555592415dc629501fe9036dfa410e2e71d0d093e5c91625df46d8e546a29e658ebe
+  languageName: node
+  linkType: hard
+
+"yocto-queue@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "yocto-queue@npm:0.1.0"
+  checksum: dceb44c28578b31641e13695d200d34ec4ab3966a5729814d5445b194933c096b7ced71494ce53a0e8820685d1d010df8b2422e5bf2cdea7e469d97ffbea306f
   languageName: node
   linkType: hard
 
