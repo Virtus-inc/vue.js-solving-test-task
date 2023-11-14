@@ -1,5 +1,5 @@
 <template>
-  <div :class='data.status ? "dark" : "bg-white"' class="dark flex justify-center items-center h-screen">
+  <div :class='data.status ? "dark" : "bg-white"' class="flex justify-center items-center h-screen">
     <Dropdown />
     <UToggle v-model="data.status" color="green" @click="toggleTheme" class="ml-2"/>
   </div>
