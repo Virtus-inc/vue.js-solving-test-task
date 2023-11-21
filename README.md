@@ -1,16 +1,24 @@
 ## vue.js-solving-test-task
 
 ### Install
-> yarn install
+```
+yarn install
+```
 
 ### Run Dev
-> yarn dev
+```
+yarn dev
+```
 
 ### Build
-> yarn build
+```
+yarn build
+```
 
 ### Generate SSG
-> yarn generate
+```
+yarn generate
+```
 
 ### Image Docker
 
