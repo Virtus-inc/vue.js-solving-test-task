@@ -1,13 +1,21 @@
-# vue.js-solving-test-task
+## vue.js-solving-test-task
 
-## Install
-1. yarn install
-   
-## Run Dev
-2. yarn dev
-   
-## Build
-3. yarn build
+### Install
+> yarn install
 
-## Generate SSG
-4. yarn generate
+### Run Dev
+> yarn dev
+
+### Build
+> yarn build
+
+### Generate SSG
+> yarn generate
+
+### Image Docker
+
+---
+
+```
+docker run -p 3000:3000 virtusinc/vuejs-test-task
+```
